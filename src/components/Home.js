@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import Navbar from './Navbar';
 import Books from './Books';
+import Form from './Form';
 
 const Home = () => {
   const [books] = useState([
@@ -19,6 +20,7 @@ const Home = () => {
     <div className="wrapper">
       <Navbar />
       <Books books={books} />
+      <Form />
     </div>
   );
 };
