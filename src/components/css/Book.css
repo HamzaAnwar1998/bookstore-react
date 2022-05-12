@@ -1,0 +1,51 @@
+.main-box{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+}
+
+.main-box .book{
+    width: 350px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main-box .book .genre{
+    color: #c6c6c6;
+    font-weight: 600;
+    font-size: 16px;
+    margin-bottom: 7px;
+}
+
+.main-box .book .title{
+    color: #000;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 7px;
+}
+
+.main-box .book .author{
+    color: #0491ff;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 7px;
+}
+
+.main-box .book .btns-box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+    margin-left: -5px;
+}
+
+.main-box .book .btns-box .action-btns{
+    background: transparent;
+    color: #0491ff;
+    border: none;
+    outline: none;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
