@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 const Book = ({ book }) => {
   const { title, genre, author } = book;
   return (
-    <main className="main-box">
+    <main className="main-box container">
       <div className="book">
         <div className="genre">{genre}</div>
         <div className="title">{title}</div>
