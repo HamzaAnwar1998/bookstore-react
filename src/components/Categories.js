@@ -6,7 +6,7 @@ import { checkStatus } from '../redux/categories/categories';
 const Categories = () => {
   const dispatch = useDispatch();
   const handleStatus = () => {
-    dispatch(checkStatus('under construction'));
+    dispatch(checkStatus());
   };
   return (
     <div className="wrapper">

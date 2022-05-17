@@ -10,7 +10,7 @@ export const checkStatus = (payload) => ({
 const checkStatusReducer = (state = initialState, action) => {
   switch (action.type) {
     case 'CHECK_STATUS':
-      return action.payload;
+      return 'under construction';
     default:
       return state;
   }
