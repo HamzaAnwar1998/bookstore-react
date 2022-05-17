@@ -1,7 +1,17 @@
 const ADD_BOOK = 'bookstore/books/ADD_BOOK';
 const REMOVE_BOOK = 'bookstore/books/REMOVE_BOOK';
 
-const initialState = [];
+const initialState = [
+  {
+    id: 0, title: 'The Hunger Games', category: 'Action', author: 'Suzanne Collins',
+  },
+  {
+    id: 1, title: 'Dune', category: 'Science Fiction', author: 'Frank Herbert',
+  },
+  {
+    id: 2, title: 'Capital in the twenty-first century', category: 'Economy', author: 'Thomas Piketty',
+  },
+];
 
 export const addBook = (payload) => ({
   type: ADD_BOOK,
