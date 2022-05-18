@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useDispatch } from 'react-redux';
-import { addBook } from '../redux/books/books';
+import { v4 as uuidv4 } from 'uuid';
+import { postBook } from '../redux/books/books';
 
 const Form = () => {
   const [title, setTitle] = useState('');
@@ -10,13 +11,14 @@ const Form = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const id = uuidv4();
     const newBook = {
-      id: Math.floor(Math.random() * 100),
+      id,
       title,
       author,
       category,
     };
-    dispatch(addBook(newBook));
+    dispatch(postBook(newBook));
     setTitle('');
     setAuthor('');
     setCategory('');
