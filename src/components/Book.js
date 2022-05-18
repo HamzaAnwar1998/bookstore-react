@@ -3,7 +3,7 @@ import React from 'react';
 import './css/Book.css';
 import PropTypes from 'prop-types';
 import { useDispatch } from 'react-redux';
-import { removeBook } from '../redux/books/books';
+import { deleteBook } from '../redux/books/books';
 
 const Book = ({ book }) => {
   const {
@@ -11,7 +11,7 @@ const Book = ({ book }) => {
   } = book;
   const dispatch = useDispatch();
   const deleteHandler = () => {
-    dispatch(removeBook(id));
+    dispatch(deleteBook(id));
   };
   return (
     <main className="main-box container">
@@ -46,7 +46,7 @@ const Book = ({ book }) => {
 
 Book.propTypes = {
   book: PropTypes.shape({
-    id: PropTypes.number.isRequired,
+    id: PropTypes.string.isRequired,
     title: PropTypes.string.isRequired,
     author: PropTypes.string.isRequired,
     category: PropTypes.string.isRequired,
