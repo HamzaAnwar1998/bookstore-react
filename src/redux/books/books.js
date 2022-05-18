@@ -37,7 +37,7 @@ export const getBooksList = () => async (dispatch) => {
   const booksList = await fetch(`${baseURL}`)
     .then((response) => response.json());
   const booksID = Object.keys(booksList);
-  console.log(booksID);
+  // console.log(booksID);
   const formatedBooks = [];
   booksID.map((key) => formatedBooks.push({
     id: key,
