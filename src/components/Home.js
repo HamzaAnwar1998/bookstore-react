@@ -6,8 +6,11 @@ import Form from './Form';
 const Home = () => (
   <div className="wrapper">
     <Navbar />
-    <Books />
-    <Form />
+    <div className="books-and-form">
+      <Books />
+      <div className="line container" />
+      <Form />
+    </div>
   </div>
 );
 

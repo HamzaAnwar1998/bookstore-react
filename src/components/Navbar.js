@@ -1,19 +1,19 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import './css/Navbar.css';
 import { Icon } from 'react-icons-kit';
 import { user } from 'react-icons-kit/feather/user';
 
 const Navbar = () => (
-  <nav className="navbar">
+  <nav className="navbar container">
     <div className="leftside">
       <h1 className="logo-text">Bookstore CMS</h1>
       <ul className="links-box">
         <li className="link-li">
-          <Link to="/" className="link">BOOKS</Link>
+          <NavLink to="/" className="link">BOOKS</NavLink>
         </li>
         <li className="link-li">
-          <Link to="/categories" className="link">CATEGORIES</Link>
+          <NavLink to="/categories" className="link">CATEGORIES</NavLink>
         </li>
       </ul>
     </div>
