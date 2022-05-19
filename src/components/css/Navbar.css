@@ -9,7 +9,6 @@
 }
 
 .navbar .leftside{
-    flex: 1;
     display: flex;
     align-items: center;
 }
@@ -41,13 +40,10 @@
 }
 
 .navbar .rightside{
-    flex: 1;
     display: flex;
-    justify-content: flex-end;
 }
 
 .navbar .rightside .user{
-    margin-right: 50px;
     color: #0491ff;
     cursor: pointer;
 }

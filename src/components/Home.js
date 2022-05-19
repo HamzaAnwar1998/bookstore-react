@@ -8,6 +8,7 @@ const Home = () => (
     <Navbar />
     <div className="books-and-form">
       <Books />
+      <div className="line container" />
       <Form />
     </div>
   </div>

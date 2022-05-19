@@ -1,3 +1,4 @@
+/* eslint-disable react/self-closing-comp */
 /* eslint-disable react/require-default-props */
 import React from 'react';
 import './css/Book.css';
@@ -58,7 +59,7 @@ const Book = ({ book }) => {
       <div className="chapter">
         <div className="current-chap">CURRENT CHAPTER</div>
         <p className="chap-no">Chapter 17</p>
-        <button type="button" className="btn btn-primary btn-md">UPDATE</button>
+        <button type="button" className="btn btn-primary btn-sm">UPDATE</button>
       </div>
     </main>
   );

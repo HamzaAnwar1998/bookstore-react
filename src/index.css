@@ -23,3 +23,9 @@ code {
 .books-and-form{
   background-color: #fafafa;
 }
+
+.line{
+  border-bottom: 1px solid #e4e4e4;
+  width: 100%;
+  margin-top: 50px;
+}

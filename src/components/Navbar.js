@@ -5,7 +5,7 @@ import { Icon } from 'react-icons-kit';
 import { user } from 'react-icons-kit/feather/user';
 
 const Navbar = () => (
-  <nav className="navbar">
+  <nav className="navbar container">
     <div className="leftside">
       <h1 className="logo-text">Bookstore CMS</h1>
       <ul className="links-box">
