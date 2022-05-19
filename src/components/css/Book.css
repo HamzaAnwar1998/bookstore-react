@@ -53,3 +53,28 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.circular-progress{
+    display: flex;
+    align-items: center;
+}
+
+.circular-progress .progress{
+    width: 130px;
+    height: 130px;
+    background-color: #fff;
+}
+
+.circular-progress .content{
+    margin-left: 15px;
+}
+
+.circular-progress .content .number{
+    font-size: 48px;
+    margin-bottom: 7px;
+}
+
+.circular-progress .content .string{
+    color: #c6c6c6;
+    font-weight: 600;
+}
