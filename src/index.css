@@ -19,3 +19,7 @@ code {
   overflow-x: hidden;
   overflow-y: auto;
 }
+
+.books-and-form{
+  background-color: #fafafa;
+}

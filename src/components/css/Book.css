@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    background-color: #fff;
+    border: 1px solid #e4e4e4;
+    border-radius: 10px;
+    margin: 15px 0;
 }
 
 .main-box .book{
