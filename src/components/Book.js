@@ -55,7 +55,11 @@ const Book = ({ book }) => {
           <p className="string">Completed</p>
         </div>
       </div>
-      <div className="chapter">Chapter</div>
+      <div className="chapter">
+        <div className="current-chap">CURRENT CHAPTER</div>
+        <p className="chap-no">Chapter 17</p>
+        <button type="button" className="btn btn-primary btn-md">UPDATE</button>
+      </div>
     </main>
   );
 };
